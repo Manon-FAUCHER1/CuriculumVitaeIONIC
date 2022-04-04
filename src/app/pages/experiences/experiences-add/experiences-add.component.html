@@ -1,0 +1,49 @@
+<ion-grid>
+
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label position="floating">Nom de l'entreprise :</ion-label>
+        <ion-input [(ngModel)]="experience.business"></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label position="floating">Année de début :</ion-label>
+        <ion-input [(ngModel)]="experience.startDate"></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+      <ion-item>
+        <ion-label position="floating">Année de fin</ion-label>
+        <ion-input [(ngModel)]="experience.endDate"></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <ion-item>
+        <ion-label position="floating">Roles :</ion-label>
+        <ion-input [(ngModel)]="experience.role"></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <ion-button color="danger" routerLink="/experiences">
+        Annuler
+      </ion-button>
+    </ion-col>
+    <ion-col offset="1">
+      <ion-button color="success" (click)="add(experience)">
+        Valider
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+</ion-grid>

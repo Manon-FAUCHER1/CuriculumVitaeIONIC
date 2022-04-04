@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Formations</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]>
+
+  <ion-list lines="none">
+    <ion-item *ngFor="let formation of listFormation">
+      <ion-card>
+
+        <ion-card-header>
+          <ion-card-subtitle>{{formation.obtentionDate}}</ion-card-subtitle>
+          <ion-card-title>
+            <h6>{{formation.title}}</h6>
+          </ion-card-title>
+          <ion-card-subtitle color="dark">{{formation.school}}</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-accordion-group >
+            <ion-accordion>
+
+              <ion-item slot="header"><h6>Notes</h6></ion-item>
+
+              <ion-list slot="content">
+                <ion-item>
+                  <ion-card-content>
+                    <ion-text >{{formation.note}}</ion-text>
+                  </ion-card-content>
+                </ion-item>
+              </ion-list>
+
+            </ion-accordion>
+          </ion-accordion-group>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

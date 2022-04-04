@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>competences</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-list *ngFor="let competence of listCompetences">
+
+      <ion-accordion-group>
+        <ion-accordion value="colors">
+
+          <ion-item slot="header">
+            <ion-label>{{competence.title}}</ion-label>
+          </ion-item>
+
+          <ion-list slot="content" lines="full">
+            <ion-item>
+              <ion-card-subtitle>{{competence.languages}}</ion-card-subtitle>
+            </ion-item>
+          </ion-list>
+
+        </ion-accordion>
+      </ion-accordion-group>
+
+    </ion-list>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,122 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+
+  "competences": [
+    {
+      "id": 1,
+      "title": "Langages",
+      "languages": "Kotlin, Java, Php 7, JavaScript, Html 5, CSS, Sql, PL/Sql"
+    },
+    {
+      "id": 2,
+      "title": "Mobilité",
+      "languages": "Android,  Application hybrid,  Progressive Web Application (PWA)"
+    },
+    {
+      "id": 3,
+      "title": "IDE",
+      "languages": "Android studio, Eclipse, Intellij Idea, PhpStorm, VSCode"
+    },
+    {
+      "id": 4,
+      "title": "SGBD",
+      "languages": "MySql, Oracle, Sql Server"
+    },
+    {
+      "id": 5,
+      "title": "Framework",
+      "languages": "Wordpress, Ionic, Angular, Bootstrap"
+    },
+    {
+      "id": 6,
+      "title": "Méthodologies",
+      "languages": "Agile / Scrum"
+    },
+    {
+      "id": 7,
+      "title": "Responsive",
+      "languages": "Bootstrap, Angular Materia"
+    },
+    {
+      "id": 8,
+      "title": "Outils / Divers",
+      "languages": "Gitlab, Git, Postman, ELK (Elastic Search, Logstash, Kibana), Docker, Docker Compose"
+    }
+  ],
+  "formations": [
+    {
+      "id": 1,
+      "obtentionDate": "2021",
+      "title": "Formation Concepteur Développeur d'Applications Fullstack filière Java (Bac+3/4)",
+      "school": "DIGINAMIC, 44800 Saint-Herblain",
+      "note": "Concevoir et développer une interface utilisateur. Développement JAVA et gestion des données relationnelles"
+    },
+    {
+      "id": 2,
+      "obtentionDate": "2020",
+      "title": "Formation Développeur Web et Web Mobile (Bac+2)",
+      "school": "ENI Ecole Informatique, 44800 Saint-Herblain",
+      "note":""
+    },
+    {
+      "id": 3,
+      "obtentionDate": "2017-2018",
+      "title": "BTS Système Numérique Informatique et Réseaux",
+      "school": "Institut Catholique Supérieur St-André, 79000 Niort",
+      "note":""
+    },
+    {
+      "id": 4,
+      "obtentionDate": "2017",
+      "title": "BAC Professionnel Système Electroniques et Numériques Option Electronique Industrielle Embarqué",
+      "school": "Lycée St-André, 79000 Niort",
+      "note":""
+    }
+  ],
+  "experiences": [
+    {
+      "id": 1,
+      "business": "GROUPE OPEN RENNES",
+      "startDate": "2021",
+      "endDate": "2023",
+      "role": "Développeuse Web (alternante, mars 2021 -> juillet 2022)"
+    },
+    {
+      "id": 2,
+      "startDate": "2019",
+      "endDate": "2020",
+      "business": "OFFICE PUB HABITAT 44 LOIRE ATLANTIQUE",
+      "role": "Développeuse Web (Stagiaire, 8 semaines)"
+    },
+    {
+      "id": 3,
+      "startDate": "2018",
+      "endDate": "",
+      "business": "TOYOTA MATERIAL HANDLING MANUFACTURING FRANCE, ANCENIS",
+      "role": "Développeuse (Stagiaire, 6 semaines)"
+    },
+    {
+      "id": 4,
+      "business": "test",
+      "startDate": "2021",
+      "endDate": "2021",
+      "role": "test test"
+    }
+  ]
+}
